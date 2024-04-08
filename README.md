@@ -8,7 +8,7 @@
 ## Installation
 1. Clone the repository.
     ```bash
-    https://github.com/zhoushen1/DIACMPN
+    https://github.com/zhoushen1/DCMPNet
     ```
 
 2. Install PyTorch 1.12.0 and torchvision 0.13.0.
@@ -21,8 +21,11 @@
     pip install -r requirements.txt
     ```
     
-## Prepare Datasets
+## Prepare
 Download the RESIDE datasets from [here.](https://sites.google.com/view/reside-dehaze-datasets)
+
+You need to put the `depth` into the file and you can download the `depth` from (Link：https://pan.baidu.com/s/1sNoMlcehMUtSLRuRvsjKKw?pwd=dbcw 
+code：dbcw)
 
 The final file path should be the same as the following (please check it carefully):
 ```
@@ -77,3 +80,12 @@ For example, we test the DIACMPN-dehaze-Indoor on the SOTS indoor set:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python test.py --model DIACMPN-dehaze-Indoor --dataset RESIDE-IN --exp indoor
 ```
+
+
+# Contact:
+    Don't hesitate to contact me if you meet any problems when using this code.
+
+    Zhou Shen
+    Faculty of Information Engineering and Automation
+    Kunming University of Science and Technology                                                           
+    Email: zhoushennn@163.com
