@@ -8,7 +8,7 @@
 ## Installation
 1. Clone the repository.
     ```bash
-    https://github.com/zhoushen1/DCMPNet
+    https://github.com/zhoushen1/DIACMPN
     ```
 
 2. Install PyTorch 1.12.0 and torchvision 0.13.0.
